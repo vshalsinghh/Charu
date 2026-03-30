@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -19,11 +20,15 @@ export default function Banner() {
 
           <div className="flex gap-4">
             <button className="bg-black text-white px-6 py-3 rounded-full">
+              <Link href="/contact">
               Contact Us
+              </Link>
             </button>
 
             <button className="border border-black px-6 py-3 rounded-full">
+            <Link href="/about">
               Learn More
+            </Link>
             </button>
           </div>
         </div>

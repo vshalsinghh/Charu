@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Title from "./title";
+import Link from "next/link";
 
 const services = [
   {
@@ -57,7 +58,11 @@ export default function ServicesCarousel() {
                 </div>
                 <h3 className="text-lg py-2 px-2 font-semibold">{service.title}</h3>
                 <p className="py-2 px-2">{service.desc}</p>
-                <button className="learn-btn border-2 py-1 px-4 rounded-full ">Learn More</button>
+                <button className="learn-btn border-2 py-1 px-4 rounded-full ">
+                <Link href="/capabilities">
+                Learn
+                </Link>
+                </button>
               </div>
             </SwiperSlide>
           ))}

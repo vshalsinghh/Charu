@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import Title from "./title";
+import Link from "next/link";
 
 export default function Infrastructure() {
   const data = [
@@ -64,7 +65,9 @@ export default function Infrastructure() {
                 {/* Button */}
                 <div className="absolute bottom-4 left-1/2 -translate-x-1/2">
                   <button className="bg-white px-4 py-2 rounded-full text-sm shadow hover:bg-gray-100 transition flex items-center gap-1">
+                  <Link href="/about">
                     Learn More →
+                  </Link>
                   </button>
                 </div>
               </div>
