@@ -11,16 +11,39 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+.swiper {
+  width: 100%;
+  padding-bottom:2rem !important;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+.swiper-button-next, .swiper-button-prev {
+  color: black !important;            /* arrow color */
+  width: 20px !important;
+  height: 50px;
+  border-radius: 50%;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px !important;
+  font-weight: bold;
 }
