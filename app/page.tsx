@@ -18,7 +18,7 @@ export default function Home() {
     <Title 
     subtitle="Our units are equipped with modern automated quilting machines, embroidery units, stitching lines, and digital printing systems to ensure smooth, controlled production from sampling to bulk."
     />
-    <Testimonials />
+    {/* <Testimonials /> */}
     <Map />
     <Contact />
     </div>
