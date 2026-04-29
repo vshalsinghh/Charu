@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <section className="w-full bg-gray-100 py-10 px-6">
+    <section className="w-full bg-[#EEEEEE] py-10 px-6">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
 
         {/* TEXT SECTION */}

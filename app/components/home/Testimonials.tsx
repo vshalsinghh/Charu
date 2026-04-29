@@ -41,7 +41,7 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 items-center">
           {/* LEFT SIDE */}
           <div className="space-y-6 text-left px-6 md:px-0 flex flex-row md:flex-col gap-4 items-start justify-center w-full">
-            <div className="text-gray-300">
+            <div className="text-[#EEEEEE]">
               <Quote size={90} />
             </div>
 
@@ -70,7 +70,7 @@ export default function Testimonials() {
           >
             {testimonials.map((item, index) => (
               <SwiperSlide key={index} style={{height: "auto"}}>
-                <div className="bg-gray-200 rounded-3xl p-8 h-full flex flex-col justify-between">
+                <div className="bg-[#EEEEEE] rounded-3xl p-8 h-full flex flex-col justify-between">
                   <div className="space-y-6">
                     <p className="text-2xl font-medium leading-relaxed text-left">
                       “{item.text}”

@@ -37,18 +37,18 @@ export function Objective() {
             {objective.map((item, i) => (
               <div
                 key={i}
-                className="bg-gray-200 rounded-2xl p-6 space-y-4"
+                className="bg-[#EEEEEE] rounded-2xl p-6 space-y-4"
               >
-                <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                <div className="w-10 h-10 rounded-full flex items-center justify-center">
                   <Image src={item.image} width={200} height={200} alt={item.title} />
                 </div>
                 <h3 className="font-semibold">{item.title}</h3>
-                <p className="text-sm text-gray-600">
+                <p className="text text-gray-600">
                  {item.description}
                 </p>
                 {
                 item.list && 
-                <ul className="list-disc pl-5 space-y-1 text-sm text-gray-600">
+                <ul className="list-disc pl-5 space-y-1 text text-gray-600">
                 {item.list.map((point, i) => (
                     <li key={i}>{point}</li>
                 ))}

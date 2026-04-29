@@ -70,7 +70,7 @@ export default function Buyers() {
   ];
 
   return (
-    <section className="w-full py-16 relative bg-[#f5f5f5]">
+    <section className="w-full py-16 relative bg-[#EEEEEE]">
       <div className="max-w-6xl mx-auto px-4 text-center container">
         <Title 
         title="Our Clients"

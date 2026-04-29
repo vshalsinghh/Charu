@@ -3,7 +3,7 @@ import Title from "./title";
 
 export default function Map(){
     return(
-        <section className="w-full bg-[#eeeeee] py-16 px-6">
+        <section className="w-full bg-[#EEEEEE] py-16 px-6">
             <div className="container text-center m-auto">
                 <Title 
                     title="Countries We Serve"

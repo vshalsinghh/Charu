@@ -65,7 +65,7 @@ export default function Infrastructure() {
                 {/* Button */}
                 <div className="absolute bottom-4 left-1/2 -translate-x-1/2">
                   <button className="bg-white px-4 py-2 rounded-full text-sm shadow hover:bg-gray-100 transition flex items-center gap-1">
-                  <Link href="/about">
+                  <Link href="/about#why-us">
                     Learn More →
                   </Link>
                   </button>

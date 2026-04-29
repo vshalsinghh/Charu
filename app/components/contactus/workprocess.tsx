@@ -47,11 +47,11 @@ export default function WorkProcess() {
               <div key={index} className="text-center relative">
                 {/* Line */}
                 {index !== steps.length - 1 && (
-                  <div className="absolute top-10 right-[-50%] w-[85%] h-[1px] bg-gray-300"></div>
+                  <div className="absolute top-10 right-[-50%] w-[85%] h-[1px] bg-[#EEEEEE]"></div>
                 )}
 
                 {/* Icon */}
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-200 flex items-center justify-center">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[#EEEEEE] flex items-center justify-center">
                   <Icon size={28} />
                 </div>
 

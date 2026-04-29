@@ -1,6 +1,6 @@
 export function OurStory() {
     return (
-        <section className="bg-[#f5f5f5] py-16">
+        <section className="bg-[#EEEEEE] py-16">
             <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
                 <div>
                     <h2 className="text-2xl tracking-widest text-gray-500 mb-4">

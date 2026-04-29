@@ -100,7 +100,7 @@ export function Services() {
   ];
 
   return (
-    <section className="py-16 bg-[#f5f5f5]">
+    <section className="py-16 bg-[#EEEEEE]" id="services">
       <div className="max-w-7xl mx-auto px-6">
         <Title
           title="What services do we provide?"

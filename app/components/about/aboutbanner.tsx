@@ -13,15 +13,15 @@ export function AboutHero() {
   
             <div className="grid grid-cols-3 text-center gap-6">
               <div>
-                <h2 className="text-4xl font-semibold">45+</h2>
+                <h2 className="text-5xl ">45+</h2>
                 <p className="text-xs text-gray-500">YEARS OF SERVICE</p>
               </div>
               <div>
-                <h2 className="text-4xl font-semibold">500+</h2>
+                <h2 className="text-5xl ">500+</h2>
                 <p className="text-xs text-gray-500">SKILLED PROFESSIONAL</p>
               </div>
               <div>
-                <h2 className="text-4xl font-semibold">2</h2>
+                <h2 className="text-5xl ">2</h2>
                 <p className="text-xs text-gray-500">ADVANCED FACILITIES</p>
               </div>
             </div>

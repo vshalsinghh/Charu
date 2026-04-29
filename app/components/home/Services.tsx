@@ -59,7 +59,7 @@ export default function ServicesCarousel() {
                 <h3 className="text-lg py-2 px-2 font-semibold">{service.title}</h3>
                 <p className="py-2 px-2">{service.desc}</p>
                 <button className="learn-btn border-2 py-1 px-4 rounded-full ">
-                <Link href="/capabilities">
+                <Link href="/capabilities#services">
                 Learn
                 </Link>
                 </button>

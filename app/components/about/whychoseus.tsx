@@ -1,18 +1,18 @@
 export function WhyChooseUs() {
     return (
-      <section className="bg-white py-16">
+      <section className="bg-white py-16" id="why-us">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10">
           {/* Image Card */}
           <div className="relative rounded-2xl overflow-hidden">
             <img
               src="/about/factory.png"
-              className="w-full h-80 md:h-160 object-cover"
+              className="w-full h-90 md:h-160 object-cover"
             />
-            <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center gap-4 md:justify-end md:items-start text-center md:text-start p-6">
-              <h2 className="text-white text-6xl font-semibold">
+            <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-center gap-4 md:justify-end md:items-start text-center md:text-start p-6">
+              <h2 className="text-white text-6xl md:text-8xl font-semibold">
                 Why choose us?
               </h2>
-              <p className="text-white ">
+              <p className="text-white text-2xl md:text-3xl">
               Manufacturing expertise designed for consistency, control, and growth.
               </p>
             </div>
@@ -36,7 +36,7 @@ export function WhyChooseUs() {
             ].map((item, i) => (
               <div key={i}>
                 <h3 className="font-semibold mb-1 text-2xl">{item.title}</h3>
-                <p className="text-sm text-gray-600">{item.desc}</p>
+                <p className="text text-gray-600">{item.desc}</p>
               </div>
             ))}
           </div>
