@@ -1,7 +1,7 @@
 export function OurStory() {
     return (
-        <section className="bg-[#EEEEEE] py-16">
-            <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
+        <section className="bg-[#EEEEEE] py-16 mt-20">
+            <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex lg:flex-row gap-10 items-center">
                 <div>
                     <h2 className="text-2xl tracking-widest text-gray-500 mb-4">
                         OUR STORY
@@ -20,11 +20,12 @@ export function OurStory() {
                     </p>
                 </div>
 
-                <div>
-                    <img
+                <div style={{position: "relative", marginTop: "auto"}} className="w-full lg:w-[120%] h-[100vw] lg:h-100">
+                    <img 
                         src="/about/founder.png"
                         alt="Founder"
-                        className="w-full rounded-xl"
+                        className="w-full"
+                        style={{position: "absolute", bottom: "0"}}
                     />
                 </div>
             </div>
