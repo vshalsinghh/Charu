@@ -63,10 +63,10 @@ export default function Buyers() {
         image: "/capabilities/boss.png",
         alt: "boss"
       },
-      {
-        image: "/capabilities/gravi-fluff.png",
-        alt: "gravi-fluff"
-      },
+      // {
+      //   image: "/capabilities/gravi-fluff.png",
+      //   alt: "gravi-fluff"
+      // },
   ];
 
   return (
